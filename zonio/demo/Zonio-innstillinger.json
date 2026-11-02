@@ -1,0 +1,66 @@
+{
+  "innstillinger": {
+    "rapport.Gym.annetPeriode": "uke",
+    "rapport.Gym.mal": "annet",
+    "rapport.Gym.malAntall": 3,
+    "rapport.Gym.malEnhet": "okter",
+    "rapport.Gym.minVarighet": 10,
+    "rapport.Northwind Ltd.arbeidsuke": 96,
+    "rapport.Northwind Ltd.avrundMin": 15,
+    "rapport.Northwind Ltd.lunsj": true,
+    "rapport.Northwind Ltd.mal": "fakturering",
+    "rapport.Northwind Ltd.malVerdi": 7.5,
+    "rapport.Northwind Ltd.tidsformat": "timerMin",
+    "rapport.Northwind Ltd.typer": "Site visit, Project meeting",
+    "rapport.Office.arbeidsuke": 28,
+    "rapport.Office.avrundMin": 15,
+    "rapport.Office.lunsj": true,
+    "rapport.Office.mal": "fakturering",
+    "rapport.Office.malVerdi": 7.5,
+    "rapport.Office.tidsformat": "timerMin",
+    "rapport.Office.typer": "Home office, Client meeting, Course",
+    "rapport.Volunteering.annetPeriode": "manad",
+    "rapport.Volunteering.mal": "annet",
+    "rapport.Volunteering.malEnhet": "timer",
+    "rapport.Volunteering.malVerdi": 8.0,
+    "rapport.Volunteering.typer": "Food bank, Homework help, Board meeting, Clean-up day",
+    "rapport.__samlet__.malVerdi": 7.5,
+    "rapport.__samlet__.tidsformat": "timerMin"
+  },
+  "steder": [
+    {
+      "geofenceAktiv": true,
+      "id": "6F1C2B7A-3D4E-4A10-9B21-0C5D7E8F9A01",
+      "latitude": 59.9079,
+      "longitude": 10.757,
+      "name": "Office",
+      "radius": 120.0
+    },
+    {
+      "geofenceAktiv": true,
+      "id": "6F1C2B7A-3D4E-4A10-9B21-0C5D7E8F9A02",
+      "latitude": 59.9226,
+      "longitude": 10.7612,
+      "name": "Northwind Ltd",
+      "radius": 150.0
+    },
+    {
+      "geofenceAktiv": true,
+      "id": "6F1C2B7A-3D4E-4A10-9B21-0C5D7E8F9A03",
+      "latitude": 59.9292,
+      "longitude": 10.7171,
+      "name": "Gym",
+      "radius": 80.0
+    }
+  ],
+  "stederUtenPosisjon": [
+    "Volunteering"
+  ],
+  "tagRekkefolge": [
+    "Office",
+    "Northwind Ltd",
+    "Gym",
+    "Volunteering"
+  ],
+  "versjon": 1
+}
